@@ -1,5 +1,7 @@
+def hello_world(state):
+    print(f"Hello World {state}!")
+
 def main():
-    print("Hello World!")
+    hello_world("New York")
 
 main()
-
